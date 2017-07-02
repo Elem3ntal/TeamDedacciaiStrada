@@ -1,0 +1,68 @@
+#TeamName{
+    top: 0;
+    position: relative;
+    color: white;
+    text-align:center;
+    background-color: #0c2e90;
+    width: 100%;
+}
+#TeamName a{
+    font-size: 2.5em;
+    top: 100px;
+    color: #E5E5E5;
+}
+#TeamName:hover{
+    text-shadow: 0 0 5px white;
+}
+#menu{
+    display: table;
+    width: 100%;
+    background: #0c2e90;
+    text-align: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    list-style: none;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#menu li a{
+    border-color: transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: relative;
+    font-size: 1.5em;
+    display: block;
+    background-color: brown;
+}
+#menu li a:active{
+    background-color: red;
+}
+#menu li a:hover{
+    text-shadow: 0 0 5px white;
+}
+
+#Footer{
+    bottom: 0px;
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    background-color: #1A1A1A;
+    color: #1E1E1E;
+    display: table;
+}
+#sponsors{
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+#sponsors a{
+    margin: 0px 10px 0px 10px;
+}
+#sponsors a:hover{
+    text-shadow: 0 0 5px white;
+}

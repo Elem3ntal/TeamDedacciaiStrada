@@ -1,0 +1,31 @@
+/*
+Tableta de colores:
+Amarillo patitio: #FFF144
+Azul: #0c2e90
+*/
+/* Por defecto, para evitar errores*/
+{
+    padding: 0px;
+    margin: 0px;
+}
+/*para centrar la pag y ajustar ancho del navegador*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+/*Incluir font a utilizar*/
+@font-face{
+    font-family:'ELEMENTI';
+    src: url('/Sources/Fonts/Oswald-Regular.ttf');
+}
+/* aplicar configuraciones generales al documento*/
+body{
+    color: #1E1E1E;
+    background-color: #fff144;
+    font-family: 'ELEMENTI';
+}
+/*Remover efectos especiales de los A*/
+a, a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: white;
+}

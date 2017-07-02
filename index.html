@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="/JS/Sources.js"></script>
+    </head>
+
+    <body>
+        <div id="TeamName" onclick="menu(0);">
+            <a>Team Dedacciai Strada</a>
+        </div>
+        <div id="content">
+            <ul id="menu">
+                <li><a onclick="menu(1);">Galleria</a></li>
+                <li><a onclick="menu(2);">Integrantes</a></li>
+            </ul>
+            <h2>El team</h2>
+            <p>breve resumen del team</p>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade w3-animate-top in active">
+                    <h3>Portada</h3>
+                    <p>Para mostrar proximas actividades, palmares, escuela de ciclosmo, locacion, etc...</p>
+                </div>
+                <div id="gallery" class="tab-pane w3-animate-left">
+                    <h3>Galeria</h3>
+                    <p>subir fotos y videos por salidas del equipo.</p>
+                </div>
+                <div id="members" class="tab-pane w3-animate-right">
+                    <h3>Integrantes</h3>
+                    <p>Fotos de todos los integrantes activos que tengan la tricota "oficial", listado en orden alfabético</p>
+                </div>
+            </div>
+        </div>
+        <div id="Footer">
+            <div id="sponsors">
+                <a>Dedacciai</a>
+                <a>Engiro</a>
+                <a>LaSquadra</a>
+                <a>PowerTap</a>
+            </div>
+        </div>
+    </body>
+</html>
